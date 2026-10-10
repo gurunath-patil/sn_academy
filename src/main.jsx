@@ -261,11 +261,10 @@ function App() {
                             {academy.founder} • {lang === 'mr' ? 'संस्थापक व प्रशिक्षक' : 'Founder & Trainer'}
                         </p>
                         <p className='mt-6 text-xl'>{t.location}</p>
-                        <div className='mt-10'>
+                        <div className="mt-10 w-full md:w-6/12">
                             <iframe
                                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3824.206216203404!2d74.121095974122!3d16.566124525946265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc051c71a720ca3%3A0x9dea40f65a63e304!2sSN%20ACADEMY!5e0!3m2!1sen!2sin!4v1791644675263!5m2!1sen!2sin"
-                                width="520"
-                                height="300"
+                                className="w-full md:w-lg h-[300px]"
                                 style={{ border: 0, borderRadius: '0.8rem' }}
                                 allowFullScreen=""
                                 loading="lazy"
