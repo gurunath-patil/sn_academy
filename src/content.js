@@ -102,6 +102,7 @@ export const content = {
 		fields: ['पूर्ण नाव', 'मोबाईल नंबर', 'लक्ष्य परीक्षा', 'पसंतीची वेळ / संदेश'],
 		select: 'अभ्यासक्रम निवडा',
 		submit: 'सबमिट करा',
+		submitProgress: 'सबमिट होत आहे..',
 		copy: 'मजकूर कॉपी करा',
 		copied: 'कॉपी केले',
 		privacy:
@@ -207,6 +208,7 @@ export const content = {
 		fields: ['Full name', 'Mobile number', 'Target exam', 'Preferred time / message'],
 		select: 'Select a course',
 		submit: 'Submit',
+		submitProgress:'Submitting...',
 		copy: 'Copy text',
 		copied: 'Copied',
 		privacy:
